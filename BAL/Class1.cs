@@ -6,21 +6,7 @@ using System.Threading.Tasks;
 
 namespace BAL
 {
-    public class login
-    {
-       // public int admin_id { get; set; }
-        public string Email { get; set; }
-
-        public string pass { get; set; }
-
-    }
-    public class sign
-    {
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string pass { get; set; }
-        public string cpass { get; set; }
-    }
+    
     public class Laptop
     {
         public int laptop_id { get; set; }

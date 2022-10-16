@@ -26,19 +26,12 @@ namespace Helper
             return dal.Insert(school);
 
         }
-        //public bool AddEmployees(Employee_BAL employee)
-        //{
-        //    return dal.InsertEmployees(employee);
-
-        //}
+        
         public bool Edit(Laptop school)
         {
             return dal.Update(school);
         }
-        //public int Count()
-        //{
-        //    return dal.EmployeeCount();
-        //}
+        
         public Laptop search(int id)
         {
             return dal.Find(id);
